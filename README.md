@@ -31,6 +31,6 @@ Create an endpoint that lists all tags associated with an order.
 Create an endpoint that lists all the orders associated with a particular tag.
 
 ### Challenge 8 Create Inventory Item:
-Create a file "challenge_8_explanation.md" in the "Coding_Interview" folder. Pretend you are working with a junior developer. They are stuck and you are going to explain how they would solve the problem they are working on. They should be able to walk away from your explanation with functional code. Here is what they are trying to do:
+Create a file "challenge_8_explanation.md" in the top level folder of this project. Pretend you are working with a junior developer. They are stuck and you are going to explain how they would solve the problem they are working on. They should be able to walk away from your explanation with functional code. Here is what they are trying to do:
 - Add an item to Inventory through the API
 - Their metadata should include these fields (year, actors, imdb_rating, rotten_tomatoes_rating, film_locations)
