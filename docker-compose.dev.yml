@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+ db:
+  image: postgres:latest
+  ports: 
+  - 5444:5432
+  environment:
+   - POSTGRES_USER=docker
+   - POSTGRES_PASSWORD=docker
+   - POSTGRES_DB=tmt_interview
+  volumes:
+  - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
+    driver: local
