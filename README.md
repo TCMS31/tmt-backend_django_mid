@@ -3,10 +3,12 @@ For this project, you will complete the following coding challenges. Each challe
 
 ## Setup
 1. Ensure that you have Docker Desktop installed on your computer
-2. Set up a python environment using Python 3.10
-3. User the docker compose file to set up a local postgres database
-4. Run database.py to add test data to database
-
+2. Ensure that you have venv installed globally
+3. From the top level directory of this project (where manage.py is located), type: 
+    1. `docker compose --file docker-compose.dev.yml up -d`
+    2. `chmod +x start.sh`
+    3. `./start.sh`
+    4. `source .venv/bin/activate`
 
 ### Challenge 1 Inventory Dates:
 Create a view that lists inventory items created after a certain day.
