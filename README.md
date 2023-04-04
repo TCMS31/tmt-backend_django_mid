@@ -1,7 +1,7 @@
 ## Instructions
 For this project, you will complete the following coding challenges. Each challenge is a standalone problem and should function independently of the other challenges. When adding code to this repository, assume this is a production codebase: use best practices and style accordingly. Clone this repository then push it to your github **(DO NOT FORK)** and send us a link to the project. Create a unique branch for each problem you are solving. The branches should use the title of the challenge named with the following convention: "challenge-#-name" (eg "challenge-1-inventory-dates", "challenge-2-deactivate-order" etc.). Your code should be free of basic linting errors and shouldn't have any unused imports. **If you are doing any formatting, it should happen on a different commit than where you commited your answers to the challenge.** Do not add any other packages to this project to complete the work. You will be expected to write basic tests so we can validate your code is functioning with the correct inputs and outputs. Once you complete each challenge you will make a PR to your repository on your github for the branch/challenge you completed.
 
-## Setup (For Linux)
+## Setup (For Linux/Unix terminals)
 1. Ensure that you have Docker Desktop installed on your computer
 2. Ensure that you have venv installed globally
 3. From the top level directory of this project (where manage.py is located), type: 
