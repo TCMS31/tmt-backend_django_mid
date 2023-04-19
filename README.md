@@ -15,7 +15,7 @@ For this project, you will complete the following coding challenges. Each challe
 2. Ensure that you have Python and venv installed on your system, and both are accessible from your system's PATH.
 3. From the top level directory of this project (where manage.py is located), type: 
     1. `docker-compose --file docker-compose.dev.yml up -d`
-4. Run the start_venv.bat file
+4. Run the start.bat file
 5. Activate your venv `.venv\Scripts\Activate.ps1`
 
 
