@@ -10,6 +10,15 @@ For this project, you will complete the following coding challenges. Each challe
     3. `./start.sh`
     4. `source .venv/bin/activate`
 
+## Setup (For Windows Powershell)
+1. Ensure that you have Docker Desktop installed on your computer
+2. Ensure that you have Python and venv installed on your system, and both are accessible from your system's PATH.
+3. From the top level directory of this project (where manage.py is located), type: 
+    1. `docker-compose --file docker-compose.dev.yml up -d`
+4. Run the start_venv.bat file
+5. Activate your venv `.venv\Scripts\Activate.ps1`
+
+
 ### Challenge 1 Inventory Dates:
 Create a view that lists inventory items created after a certain day.
 
